@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Storage buffer test extension",
+    "version": "0.0.0",
+    "description": "Not a real extension",
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "permissions": [
+        "storage"
+    ],
+    "applications": {
+        "gecko": {
+            "id": "storage@tridactyl.xyz",
+            "strict_min_version": "50.0"
+        }
+    }
+}
